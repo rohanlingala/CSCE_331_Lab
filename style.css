@@ -107,6 +107,14 @@ body {
   text-align: left;
   overflow: nowrap;
 }
+.creative_comments1
+{
+  padding-top: 1em;
+  font-size: 0.25em;
+  padding-left: 25em;
+  text-align: left;
+  overflow: nowrap;
+}
 .BORDER{
     border: solid 5px;
 }
