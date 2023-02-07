@@ -165,7 +165,7 @@ body {
     overflow: hidden;
     width: fit-content;
     height: fit-content;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     
  }
 
@@ -221,7 +221,7 @@ body {
  {
   font-family: 'Minecraft', sans-serif;
   font-size: 2em;
-   margin-top: -8.0em;
+   margin-top: -8.40em;
    padding-right: 7em;
    text-align: center;
  }
@@ -274,7 +274,7 @@ body {
 .creative_projects
 {
   font-size: 2em;
-  margin-top: -8.0em;
+  margin-top: -9.0em;
   padding-right: 6.5em;
   text-align: center;
 }
