@@ -1,0 +1,371 @@
+
+/*----------------------------------------------------------*/
+/*---------------------- SPLASH PAGE ----------------------*/
+/*----------------------------------------------------------*/
+/*---- FONTS: EB Garamond, Balthazar,Copperplate Gothic ----*/
+.BORDER{
+  border: solid 5px;
+  color:black;
+  /* display: flex; */
+  height: 96vh; /* For 100% screen height */
+  width:  98vw; /* For 100% screen width */  
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.NUMBER{
+ /* margin-top: -0.5em;
+  padding-right: 38em; */
+  padding-left: 0.5em;
+  white-space: nowrap;
+  display: flex;
+  height: 33vh; /* For 100% screen height */
+  width:  80vw; 
+
+}
+h1{
+ display: flex; 
+}
+.PIERCE{
+  /*
+      white-space: nowrap;
+  padding-left: 11em;*/
+  color: rgb(0, 0, 0);
+  margin-top: 1em;
+  padding-right: 3.5em;
+  white-space: nowrap;
+  display: flex;
+  height: 10vh; 
+  width:  1vw; 
+  margin-left: 88%;
+  padding-left: 0em;
+}
+.TOP3{
+  position: absolute;
+  height: 33vh; /* For 100% screen height */
+  width:  100vw; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40%;
+  padding-bottom: 40%;
+  color:black;
+
+}
+.MID3{
+  left: 34.5vw;
+  top: 32vh;
+  position: absolute;
+  height: 33vh; /* For 100% screen height */
+  width:  100vw; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:black;
+}
+.BOT3{
+  color: aliceblue;
+  top: 42vh;
+  left: 0vw;
+  right: 0vw;
+  position: absolute;
+  height: 33vh; /* For 100% screen height */
+  width:  100vw; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: nowrap;
+
+}
+.NAME{
+  /*padding-top: 3em;
+  margin-bottom: -0.5em;*/
+  left: 35vw;
+  font-size: 1em;
+  white-space: nowrap;
+  display: flex;
+  margin-top: 0vh;
+  text-align: center;
+  height: 10vh; 
+  width:  10vw; 
+  color:black;
+}
+.TAMU{
+  display: flex;
+  bottom: 20vh;
+  left: 10vw;
+  text-align: center;
+  color:black;
+
+ }
+ .HOME
+ {
+  
+     display: block;
+     text-align: center;
+     left: 25vw;
+ }
+ 
+ .navbar {
+     overflow: hidden;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     display: flex;
+   }
+   
+   .navbar a {
+     float: center;
+     display: flex;
+     color:black;
+     text-align: center;
+     padding: 2vh 5vw;
+     text-decoration: none;
+     font-size: 1em;
+   }
+   .navbar a:hover {
+     text-decoration: underline;
+     color:black;
+
+   }
+   
+   .navbar a.active {
+     background-color: #04AA6D;
+     color:black;
+    }
+   .c1 {
+    text-align: center;
+    }
+   .center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+  .center_picture {
+    display: flex;
+    margin-left: 9em;
+    width: 40%;
+    }
+/*----------------------------------------------------------*/
+/*----------------------SPLASH PAGE END---------------------*/
+/*----------------------------------------------------------*/ 
+
+
+/*----------------------------------------------------------*/
+/*--------------------- DEFAULT WEBPAGE ---------------------*/
+/*----------------------------------------------------------*/
+
+body {
+    background-image: url("./blank.webp");
+    font-family: 'Balthazar', serif;
+    font-size: 2em;
+    overflow: hidden;
+    color: black;
+
+ }
+
+
+ .FAXBACKGROUND
+ {
+   font-family: 'Balthazar', serif;
+   font-size: 2em;
+   padding-top: 0em;
+   padding-bottom: 0em;
+   overflow: hidden;
+ }
+ .WATERMARK
+ {
+   padding-right: 20em;
+   font-size: .8em;
+   margin-top: -4em;
+   text-align: center;
+   position:relative;
+ }
+ 
+ .NEXT
+ {
+   padding-left: 20em;
+   font-size: .8em;
+   margin-top: -1.5em;
+   text-align: center;
+   position:relative;
+ }
+
+ .line1
+ {
+   padding-top: 0.1em;
+ }
+ .line2
+ {
+   padding-top: 0.1em;
+ }
+
+ .horizontalLine {
+   position: absolute;
+   width: 2px;
+   padding-bottom: 10em;
+   margin-left: 3.5em;
+   background-color: rgb(0, 0, 0);
+   transform: rotate(90deg);
+   transform: translate(-50%, -50%) rotate(90deg);
+ }
+ 
+ .FAX
+ {
+   font-size: 2em;
+   margin-top: -8.0em;
+   padding-right: 7em;
+   text-align: center;
+ }
+ .comment{
+   padding-top: 0.01em;
+   font-size: 0.2em;
+   padding-left: 32em;
+   text-align: left;
+   overflow: nowrap;
+ }
+ .topic
+ {
+   font-size: .3em;
+   margin-top: -0.5em;
+   padding-left: 0em;
+   margin-bottom: -0.4em;
+   overflow: nowrap;
+   text-align: left;
+ }
+
+
+.PAPER
+{
+  display: flex;
+  height: 50%;
+  width: 0vw;
+  position: relative;
+
+}
+.header
+{
+  flex-shrink: 0;
+  bottom: 0vh;
+  top: 0vh;
+  right: 10vw;
+  height: 0vh; /* For 100% screen height */
+  width:  10vw; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*----------------------------------------------------------*/
+/*--------------------- DEFAULT WEBPAGE END ----------------*/
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+/*--------------------- FIXED CODE--------------------*/
+/*----------------------------------------------------------*/
+.creative_projects
+{
+  font-size: 2em;
+  margin-top: -9.0em;
+  padding-right: 7em;
+  text-align: center;
+}
+
+.creative_topics
+{
+  font-size: .3em;
+  margin-top: -0.5em;
+  padding-left: 0em;
+  margin-bottom: -0.4em;
+  overflow: nowrap;
+}
+
+.creative_comments
+{
+  padding-top: 0.01em;
+  font-size: 0.25em;
+  padding-left: 1.1em;
+  text-align: left;
+  overflow: nowrap;
+}
+.creative_comments1
+{
+  padding-top: 1em;
+  font-size: 0.25em;
+  padding-left: 25em;
+  text-align: left;
+  overflow: nowrap;
+}
+
+p{
+    text-align: center;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 600px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 10;
+  min-width: 210px;
+  text-align: center;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  opacity: 0;
+
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 10px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(260px);
+  -ms-transform: translateX(260px);
+  transform: translateX(260px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 440px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
